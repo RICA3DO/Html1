@@ -3,6 +3,7 @@ p {
 }
 #one {
     color: brown;
+    text-decoration: line-through; 
 }
 .two {
     color: chocolate;
@@ -17,5 +18,88 @@ ul li b {
 p > b{
     color: red;
     /* this is a comment*/
+
+}
+.remember {
+    height: 10%;
+    font-size: 5em;
+    width: 20px;
+    margin: 22pt;
+    float: none;
+}
+form[name="contact"] input[type="text"] {
+    width: 250px;
+    background-color: yellow;
+}
+
+input[name="number"]{
+background-color: grey;
+color: white;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+} tips for myself */
+
+
+/*   word-spacing :1em;
+     letter-spacing:1em;
+     line-height :150%; 
+     UNIT MEASUREMENT */
+
+
+
+     /*underline, line-through, overline, and blink 
+     DECORATION*/
+
+
+
+     /* text-shadow: 1px (how far to the left or right the shadow should fall)
+
+      1px (distance to the top or bottom where the shadow should fall)
+
+       0px (specifies on blur and no always needed)
+
+        #000000;(color of the drop shadow)
+        */
+
+
+
+        /* :first-letter {
+     font-size: 200%;
+
+     :first-line {
+     font-weight: bold;
+     */
+
+      .upper {
+
+        text-transform: /*none, capitalize, uppercase, and lowercase */
+        }  
+
+       /* p */ {
+
+            text-indent: 20px; /* indent the first line of a block of text by a specified amount */
     
+    }
+    @font-face {
+        font-family: 'CodingApocalypseFont';
+        src: url('fonts/codingapocalypse.eot'); 
+        
+        /* allows you to use a font by having you specify a path to a copy of the font */
+ }
+ body {
+
+    font-family: 'Chivo', sans-serif;
+
 }
