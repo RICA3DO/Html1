@@ -1,0 +1,21 @@
+p {
+    margin: ; color: black;
+}
+#one {
+    color: brown;
+}
+.two {
+    color: chocolate;
+    text-align: center;
+}
+p b {
+    color: red;
+}
+ul li b {
+    color: rgb(39, 214, 54);
+}
+p > b{
+    color: red;
+    /* this is a comment*/
+    
+}
